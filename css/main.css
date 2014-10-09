@@ -13,7 +13,7 @@ body {
 h1, h2, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    color: #FAC891;
+    color: #C8C8C8;
 }
 h3 {
     font-family: 'Oswald', sans-serif;
@@ -36,9 +36,9 @@ p {
 
 /* Links */
 a {
-    color: #FADCAA;
+    color: #7b7b7b;
     word-wrap: break-word;
-
+	
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -48,7 +48,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #000;
     text-decoration: none;
     outline: 0;
 }
