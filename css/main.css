@@ -10,15 +10,10 @@ body {
 }
 
 /* Titles */
-h1, h2, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    color: #FAC891;
-}
-h3 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    color: #fff;
+    color: #333;
 }
 
 
@@ -27,7 +22,6 @@ p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 20px;
-	color: #000;
 }
 
 .centered {
@@ -36,7 +30,7 @@ p {
 
 /* Links */
 a {
-    color: #FADCAA;
+    color: #f39c12;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
