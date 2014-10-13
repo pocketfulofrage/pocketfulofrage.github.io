@@ -131,7 +131,9 @@ h1 {
 	}
 
 	#steampug {
-	position: absolute;
+	position: fixed;
 	top: 60px;
 	z-index: -1;
+	max-width: 50%;
+	height: auto;
 	}
