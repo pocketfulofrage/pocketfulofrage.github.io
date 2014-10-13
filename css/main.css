@@ -20,7 +20,7 @@ h1, h2, h4, h5, h6 {
 h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -128,4 +128,8 @@ h1 {
 	#bg {
 		background-size: 2250px auto;
 		width: 6750px;
+	}
+
+	#steampug {
+	position: fixed;
 	}
