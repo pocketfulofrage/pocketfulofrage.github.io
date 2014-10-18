@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'rchkb';
-  src: url('../fonts/rchkb.eot?6550727');
-  src: url('../fonts/rchkb.eot?6550727#iefix') format('embedded-opentype'),
-       url('../fonts/rchkb.woff?6550727') format('woff'),
-       url('../fonts/rchkb.ttf?6550727') format('truetype'),
-       url('../fonts/rchkb.svg?6550727#rchkb') format('svg');
+  src: url('../font/rchkb.eot?98147960');
+  src: url('../font/rchkb.eot?98147960#iefix') format('embedded-opentype'),
+       url('../font/rchkb.woff?98147960') format('woff'),
+       url('../font/rchkb.ttf?98147960') format('truetype'),
+       url('../font/rchkb.svg?98147960#rchkb') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'rchkb';
-    src: url('../fonts/rchkb.svg?6550727#rchkb') format('svg');
+    src: url('../font/rchkb.svg?98147960#rchkb') format('svg');
   }
 }
 */
@@ -51,4 +51,5 @@
 }
  
 .icon-bdsm_logo:before { content: '\e800'; } /* '' */
-.icon-sa_logo:before { content: '\e803'; } /* '' */
+.icon-sa_logo:before { content: '\e801'; } /* '' */
+.icon-kinkipedia:before { content: '\e802'; } /* '' */
