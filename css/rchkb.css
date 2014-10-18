@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'rchkb';
-  src: url('http://rchkb.github.io/fonts/rchkb.eot?6550727');
-  src: url('http://rchkb.github.io/fonts/rchkb.eot?6550727#iefix') format('embedded-opentype'),
-       url('http://rchkb.github.io/fonts/rchkb.woff?6550727') format('woff'),
-       url('http://rchkb.github.io/fonts/rchkb.ttf?6550727') format('truetype'),
-       url('http://rchkb.github.io/fonts/rchkb.svg?6550727#rchkb') format('svg');
+  src: url('../fonts/rchkb.eot?6550727');
+  src: url('../fonts/rchkb.eot?6550727#iefix') format('embedded-opentype'),
+       url('../fonts/rchkb.woff?6550727') format('woff'),
+       url('../fonts/rchkb.ttf?6550727') format('truetype'),
+       url('../fonts/rchkb.svg?6550727#rchkb') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'rchkb';
-    src: url('http://rchkb.github.io/fonts/rchkb.svg?6550727#rchkb') format('svg');
+    src: url('../fonts/rchkb.svg?6550727#rchkb') format('svg');
   }
 }
 */
