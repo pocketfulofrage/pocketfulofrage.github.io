@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'rchkb';
-  src: url('../fonts/rchkb.eot?99214338');
-  src: url('../fonts/rchkb.eot?99214338#iefix') format('embedded-opentype'),
-       url('../fonts/rchkb.woff?99214338') format('woff'),
-       url('../fonts/rchkb.ttf?99214338') format('truetype'),
-       url('../fonts/rchkb.svg?99214338#rchkb') format('svg');
+  src: url('../font/rchkb.eot?69613256');
+  src: url('../font/rchkb.eot?69613256#iefix') format('embedded-opentype'),
+       url('../font/rchkb.woff?69613256') format('woff'),
+       url('../font/rchkb.ttf?69613256') format('truetype'),
+       url('../font/rchkb.svg?69613256#rchkb') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'rchkb';
-    src: url('../fonts/rchkb.svg?99214338#rchkb') format('svg');
+    src: url('../font/rchkb.svg?69613256#rchkb') format('svg');
   }
 }
 */
@@ -54,3 +54,4 @@
 .icon-sa_logo:before { content: '\e801'; } /* '' */
 .icon-kinkipedia:before { content: '\e802'; } /* '' */
 .icon-crossed-swords:before { content: '\e803'; } /* '' */
+.icon-raptr:before { content: '\e804'; } /* '' */
