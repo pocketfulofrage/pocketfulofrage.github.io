@@ -139,9 +139,7 @@ span {
 	padding: 5px 0px 0px 5px;
 	display: block;
 	width: 585px;
-}
-.PS1:nth-of-type(1)::after {
-	content: " about -@{user}";
+	content: " about -@pocketfulofrage";
 	margin: 0 0 0 6px;
 	font-size: 13px;
 	color: #B8D68C;
