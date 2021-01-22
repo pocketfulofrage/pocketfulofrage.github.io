@@ -12,6 +12,35 @@ html,body {
   font-family: 'roboto';
   color:rgb(240, 240, 240);
 }
+h1, h2, h3, h4, h5, h6 {
+	//font-style: italic;
+	font-size: 1.0em;
+	color: #ff8000;
+	font-family: roboto;
+	text-transform: uppercase;
+}
+p {
+font-family: roboto;
+color: #9d9d9d;
+font-size: 0.6em;
+text-decoration: none;
+}
+
+a {
+
+font-family: roboto;
+text-transform: lowercase;
+color: #9d9d9d;
+font-size: 0.6em;
+text-decoration: none;
+display: block;
+margin-bottom: 2px;
+}
+
+a:hover {
+  color: #cc6600;
+}
+
 .top-bar {
   width:100%;
   height:25px;
