@@ -133,6 +133,18 @@ input[type="text"]:focus {
   font-weight:bold;
 }
 
+.block {
+	float: left;
+	margin-right: 50px;
+	width: auto;
+	background: transparent;
+}
+.tag p {
+	font-family: roboto;
+	font-size: 0.6em;
+	text-transform: lowercase;
+	color: #ff8000;	
+}
 
 .uname {
 	font-size: 13px;
