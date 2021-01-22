@@ -144,9 +144,4 @@ span {
 	font-size: 13px;
 	color: #B8D68C;
 }
-.at::before {content: @user;color:@2;}
-.at {float: left;color:@15;}
-.at::after {content: @host;color:@12;}
-.amper::before {content: ":";color:@15;}
-.amper {float: left;color:@5;}
-.amper::after {content: " >>";color:@1;}
+
