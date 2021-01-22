@@ -135,3 +135,20 @@ input[type="text"]:focus {
 span {
   display:inline-block;
 }
+.PS1 {
+	padding: 5px 0px 0px 5px;
+	display: block;
+	width: 585px;
+}
+.PS1:nth-of-type(1)::after {
+	content: " about -@{user}";
+	margin: 0 0 0 6px;
+	font-size: 13px;
+	color: #B8D68C;
+}
+.at::before {content: @user;color:@2;}
+.at {float: left;color:@15;}
+.at::after {content: @host;color:@12;}
+.amper::before {content: ":";color:@15;}
+.amper {float: left;color:@5;}
+.amper::after {content: " >>";color:@1;}
