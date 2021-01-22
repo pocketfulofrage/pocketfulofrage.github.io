@@ -10,7 +10,7 @@ html,body {
   background-size:cover;
   background-position:center;
   font-family: 'roboto';
-  color:rgb(240, 240, 240);
+  font-size: 13px;
 }
 h1, h2, h3, h4, h5, h6 {
 	//font-style: italic;
