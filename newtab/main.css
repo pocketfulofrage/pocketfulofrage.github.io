@@ -133,7 +133,7 @@ input[type="text"]:focus {
 .block {
 	float: left;
 	margin-right: 50px;
-	width: auto;
+	width: 100px;
 	background: transparent;
 }
 .tag p {
