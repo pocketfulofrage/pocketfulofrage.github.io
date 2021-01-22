@@ -135,11 +135,10 @@ input[type="text"]:focus {
 span {
   display:inline-block;
 }
-.PS1 {
+.pcname {
 	padding: 5px 0px 0px 5px;
 	display: block;
 	width: 585px;
-	content: " about -@pocketfulofrage";
 	margin: 0 0 0 6px;
 	font-size: 13px;
 	color: #B8D68C;
