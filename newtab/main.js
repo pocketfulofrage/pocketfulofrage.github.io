@@ -1,5 +1,5 @@
-var name = "guest";
-var machine = "computer";
+var name = "russ";
+var machine = "pocketfulofrage";
 function KeyPress(e) {
       var evtobj = window.event? event : e
       if (evtobj.keyCode == 79 && evtobj.ctrlKey) {
