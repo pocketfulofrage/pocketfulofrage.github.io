@@ -22,16 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 p {
 font-family: roboto;
 color: #9d9d9d;
-font-size: 0.6em;
 text-decoration: none;
 }
 
 a {
-
 font-family: roboto;
 text-transform: lowercase;
 color: #9d9d9d;
-font-size: 13px;
 text-decoration: none;
 display: block;
 margin-bottom: 2px;
@@ -116,7 +113,6 @@ input[type="text"] {
   border:none;
   resize:none;
   color:white;
-  font-size:13pt;
   cursor:default;
 }
 input[type="text"]:focus {
@@ -141,21 +137,17 @@ input[type="text"]:focus {
 }
 .tag p {
 	font-family: roboto;
-	font-size: 10px;
 	text-transform: lowercase;
 	color: #ff8000;	
 }
 
 .uname {
-	font-size: 13px;
 	color: #4E9FB1;
 }
 .at {
-	font-size: 13px;
 	color: #CCCCCC;
 }
 .pcname {
-	font-size: 13px;
 	color: #B8D68C;
 }
 
