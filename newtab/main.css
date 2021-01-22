@@ -132,9 +132,7 @@ input[type="text"]:focus {
   text-decoration:none;
   font-weight:bold;
 }
-span {
-  display:inline-block;
-}
+
 
 .ucname {
 	font-size: 13px;
