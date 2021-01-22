@@ -141,7 +141,7 @@ input[type="text"]:focus {
 }
 .tag p {
 	font-family: roboto;
-	font-size: 0.6em;
+	font-size: 10px;
 	text-transform: lowercase;
 	color: #ff8000;	
 }
