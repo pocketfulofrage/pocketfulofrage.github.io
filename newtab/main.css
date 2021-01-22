@@ -135,11 +135,16 @@ input[type="text"]:focus {
 span {
   display:inline-block;
 }
+
+.ucname {
+	font-size: 13px;
+	color: #4E9FB1;
+}
+.at {
+	font-size: 13px;
+	color: #CCCCCC;
+}
 .pcname {
-	padding: 5px 0px 0px 5px;
-	display: block;
-	width: 585px;
-	margin: 0 0 0 6px;
 	font-size: 13px;
 	color: #B8D68C;
 }
