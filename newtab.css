@@ -24,15 +24,6 @@ font-size: 0.6em;
 text-decoration: none;
 }
 
-breaker {
-
-font-family: roboto;
-text-transform: lowercase;
-color: #9d9d9d;
-font-size: 0.6em;
-text-decoration: none;
-}
-
 a {
 
 font-family: roboto;
@@ -117,6 +108,15 @@ a:hover {
 	margin-top: -125px;
 	
 }
+
+#breaker {
+font-family: roboto;
+text-transform: lowercase;
+color: #9d9d9d;
+font-size: 0.6em;
+text-decoration: none;
+}
+
 
 /* AWAD below is for the quote too. */
 
