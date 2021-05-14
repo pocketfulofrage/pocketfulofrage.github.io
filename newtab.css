@@ -116,6 +116,7 @@ a:hover ~ #breaker {
 	color: #9d9d9d;
 	cursor: pointer;
 	text-decoration: none;
+	font-size: larger;
 }
 
 
