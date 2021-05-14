@@ -31,6 +31,7 @@ text-transform: lowercase;
 color: #9d9d9d;
 font-size: 0.6em;
 text-decoration: none;
+display: block;
 }
 
 a:hover {
