@@ -73,13 +73,11 @@ a:hover ~ #breaker {
 	left: 0;
 	right: 0;
 	margin: auto;	
-	
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 75px;
 	// border-bottom: 2px dotted #ff8000;
-	
 }
 
 
@@ -94,23 +92,48 @@ a:hover ~ #breaker {
 	float: right;
 	width: 170px;	
 	margin-top: 10px;
+  
 	
 }
 
 #quote{
 	height: auto;
-	width: 1000px;
+	width: 750px;
 	background: #2e2e2e;
 	position: relative;
 	top:0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	
-	margin-left: auto;	
+
+	margin-left: 300px;	
 	margin-right: auto;	
 	margin-top: -125px;
 	
+}
+
+#word{
+	height: auto;
+	width: 250px;
+	background: #2e2e2e;
+	position: relative;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin-left: 50px;	
+	margin-right: auto;	
+	margin-top: -62px;
+	
+}
+
+#word p {
+	font-family: roboto;
+	font-size: 0.6em;
+	text-transform: lowercase;
+	color: #ff8000;	
+  margin-bottom: -18px;
 }
 
 #breaker {
@@ -124,7 +147,9 @@ a:hover ~ #breaker {
 /* AWAD below is for the quote too. */
 
 .AWAD_title
-{font-family: roboto; font-size: 0.6em; color: #2e2e2e;}
+{font-family: roboto; font-size: 0.6em; color: #2e2e2e; display:none;}
+.AWAD_wordlink
+{font-family: roboto; font-size: 0.6em; color: #9d9d9d;}
 .AWAD_quotation
 {font-family: roboto; font-size: 0.6em; color: #9d9d9d;}
 .AWAD_byline
