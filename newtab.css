@@ -64,7 +64,7 @@ a:hover ~ #breaker {
 	
 	
 	
-	height: 450px;
+	height: 350px;
 	width: 1000px;
 	background: #2e2e2e;
 	position: relative;
@@ -98,17 +98,9 @@ a:hover ~ #breaker {
 
 #quote{
 	height: 75px;
-	width: 500px;
+	width: 600px;
 	background: #2e2e2e;
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 300px;
-	right: 0;
-
-	margin-left: auto;	
-	margin-right: auto;	
-	margin-top: 400px;
+  float: right;
 	
 }
 
@@ -116,15 +108,6 @@ a:hover ~ #breaker {
 	height: 75px;
 	width: 125px;
 	background: #2e2e2e;
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-
-	margin-left: 10%;	
-	margin-right: auto;	
-	margin-top: 400px;
   
 	
 }
