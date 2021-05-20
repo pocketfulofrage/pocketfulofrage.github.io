@@ -2,7 +2,7 @@ var vid = "JKaWbVGewTg",
     streams,
     video_tag = document.getElementById("video");
 
-fetch("https://images"+~~(Math.random()*33)+"-focus-opensocial.googleusercontent.com/gadgets/proxy?container=none&url=https%3A%2F%2Fwww.youtube.com%2Fget_video_info%3Fvideo_id%3D" + vid).then(response => response.text()).then(function(data) {
+fetch("https://www.youtube.com/get_video_info?html5=1&video_id=" + vid).then(response => response.text()).then(function(data) {
     if (data) {
         streams = parse_youtube_meta(data);
         video_tag.src = streams['1080p'] || streams['720p'] || streams['360p'];
