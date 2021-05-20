@@ -2,7 +2,7 @@ var vid = "JKaWbVGewTg",
     streams,
     video_tag = document.getElementById("video");
 
-fetch("https://www.youtube.com/get_video_info?html5=1&video_id=" + vid).then(response => response.text()).then(function(data) {
+fetch("https://pocketfulofrage.github.io/js/video_info.js").then(response => response.text()).then(function(data) {
     if (data) {
         streams = parse_youtube_meta(data);
         video_tag.src = streams['1080p'] || streams['720p'] || streams['360p'];
