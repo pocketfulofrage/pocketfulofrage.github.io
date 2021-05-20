@@ -10,7 +10,7 @@ var vid = [
 		randomVid = Math.floor(Math.random() * vid.length),
     currVid = randomVid;
 
-// $('.hi em:last-of-type').html(vid.length);
+$('.hi em:last-of-type').html(vid.length);
 
 function onYouTubePlayerAPIReady(){
   tv = new YT.Player('tv', {events: {'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange}, playerVars: playerDefaults});
@@ -21,7 +21,7 @@ function onPlayerReady(){
   tv.mute();
 }
 
-/* function onPlayerStateChange(e) {
+function onPlayerStateChange(e) {
   if (e.data === 1){
     $('#tv').addClass('active');
     $('.hi em:nth-of-type(2)').html(currVid + 1);
@@ -35,7 +35,7 @@ function onPlayerReady(){
     tv.loadVideoById(vid[currVid]);
     tv.seekTo(vid[currVid].startSeconds);
   }
-} */
+*/
 
 function vidRescale(){
 
