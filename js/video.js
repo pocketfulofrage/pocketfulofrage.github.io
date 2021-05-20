@@ -35,7 +35,7 @@ function onPlayerStateChange(e) {
     tv.loadVideoById(vid[currVid]);
     tv.seekTo(vid[currVid].startSeconds);
   }
-*/
+
 
 function vidRescale(){
 
