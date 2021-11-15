@@ -73,7 +73,6 @@ a:hover ~ #breaker {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 75px;
-	// border-bottom: 2px dotted #ff8000;
 }
 
 #container {
@@ -89,8 +88,7 @@ a:hover ~ #breaker {
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 75px;
-	// border-bottom: 2px dotted #ff8000;
+	padding-bottom: 5px;
 }
 
 #cont_quote {
