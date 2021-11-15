@@ -94,7 +94,7 @@ a:hover ~ #breaker {
 }
 
 #cont_quote {
-	height: 350px;
+	height: 75px;
 	width: 1000px;
 	background: #2e2e2e;
 	position: relative;
@@ -107,7 +107,6 @@ a:hover ~ #breaker {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 0;
-	// border-bottom: 2px dotted #ff8000;
 }
 
 
