@@ -76,15 +76,11 @@ a:hover ~ #breaker {
 }
 
 #planka {
-	height: 650px;
-	width: 1425px;
+	max-width: 1425px;
+	overflow: hidden;
 	background: #2e2e2e;
 	position: relative;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;	
+	margin: 15px auto;	
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
