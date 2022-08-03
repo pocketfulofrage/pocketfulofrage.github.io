@@ -85,10 +85,10 @@ a:hover ~ #breaker {
 	left: 0;
 	right: 0;
 	margin: auto;	
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 75px;
 }
 
 #container {
