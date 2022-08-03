@@ -75,6 +75,22 @@ a:hover ~ #breaker {
 	padding-bottom: 75px;
 }
 
+#planka {
+	height: 650px;
+	width: 1425px;
+	background: #2e2e2e;
+	position: relative;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
 #container {
 	height: 350px;
 	width: 1000px;
